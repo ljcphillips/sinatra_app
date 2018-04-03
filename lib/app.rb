@@ -10,6 +10,7 @@ get '/secret' do
   "Can you see me?"
 end
 
-get '/secret2' do
-  "Can you see me as well?"
+get '/cat' do
+@name = ["Amigo","Oscar","Viking"].sample
+erb(:index)
 end

@@ -8,5 +8,5 @@ group :development, :test do
   gem "rspec"
   gem "capybara"
   gem "sinatra"
-
+  gem "shotgun"
 end

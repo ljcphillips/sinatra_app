@@ -9,4 +9,5 @@ group :development, :test do
   gem "capybara"
   gem "sinatra"
   gem "shotgun"
+  gem "selenium-webdriver"
 end
